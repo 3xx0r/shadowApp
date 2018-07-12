@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to ShadowApp !</h2>
+  <h2> Welcome to ShadowApp !</h2>
   <p>
     This starter project comes with simple tabs-based layout for apps
     that are going to primarily use a Tabbed UI.
@@ -15,7 +15,23 @@
     update any existing page or create new pages.
   </p>
 
-<button ion-button [navPush]="connectPage">NextPage</button>
+<button ion-button [navPush]="connect">NextPage</button>
 <button ion-button [navPush]="HomePage">HomePage</button>
+
+<div>
+    <ion-list>
+
+        <ion-item>
+          <ion-label stacked>Username</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label stacked>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      
+      </ion-list>
+</div>
 
 </ion-content>
