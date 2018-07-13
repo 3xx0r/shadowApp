@@ -3,7 +3,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { Platform } from 'ionic-angular';
 import { TabsPage } from '../pages/tabs/tabs';
-import { ConnectPage } from '../pages/connect/connect';
+
+
 
 
 @Component({
