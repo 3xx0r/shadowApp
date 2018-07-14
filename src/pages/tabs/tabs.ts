@@ -4,6 +4,7 @@ import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { ConnectPage } from '../connect/connect';
+import { SettingsPage } from '../settings/settings';
 
 
 
@@ -16,6 +17,7 @@ export class TabsPage {
   tab2Root = AboutPage;
   tab3Root = ContactPage;
   tab4Root = ConnectPage;
+  tab5Root = SettingsPage
 
 
 

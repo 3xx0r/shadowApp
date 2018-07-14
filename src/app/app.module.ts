@@ -12,6 +12,7 @@ import { ConnectPage } from '../pages/connect/connect';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MapPage } from '../pages/map/map';
+import { SettingsPage } from '../pages/settings/settings'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MapPage } from '../pages/map/map';
     HomePage,
     TabsPage,
     ConnectPage,
-    MapPage
+    MapPage,
+    SettingsPage,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { MapPage } from '../pages/map/map';
     HomePage,
     TabsPage,
     ConnectPage,
-    MapPage
+    MapPage,
+    SettingsPage
   ],
   providers: [
     StatusBar,
