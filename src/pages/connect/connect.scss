@@ -1,5 +1,7 @@
 page-connect {
-
+    ion-content{
+        background-color: orange !important;
+    }
 }
 
 .image-div{
@@ -11,7 +13,16 @@ page-connect {
     right:10px;
 }
 
-.enter{
-    top: 30px;
-    
+.html{
+    color: teal;
 }
+
+.div1{
+    top: 70px;
+}
+
+
+.button{
+    left: 40px;
+}
+

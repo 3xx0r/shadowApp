@@ -1,19 +1,31 @@
 
-<ion-content>
-    <ion-title>Connect to Bracelet !</ion-title>
- 
+<ion-header>
+<h1>Connect Your Bracelet</h1>
 
-   <div>
-
-    <p class="enter-code">Enter Code Below</p>
+  <ion-navbar>
+<ion-title>Enter Code Below</ion-title>
+  </ion-navbar>
+</ion-header>
+<div class="div1">
+  <p> Enter Code Below</p>
 </div>
 
+<ion-content >
     
+        <ion-list>
+    
+            <ion-item>
+              <ion-label stacked>Code</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+          
+    </ion-list>
+    
+    <div class="button">
+        <button ion-button [navPush]="map">Connect</button>
+    </div>
 
-
-<ion-content padding>
-
-
-  </ion-content>
+</ion-content>
+  
 
 
