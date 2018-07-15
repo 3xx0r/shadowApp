@@ -5,14 +5,49 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
+  
   <ion-navbar>
-    <ion-title>settings</ion-title>
+    <ion-title>Settings</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+    <ion-list>
+    
+        <ion-item>
+          <ion-label stacked>Set Distance As</ion-label>
+<button ion-button [navPush]="Unknown">Feet</button>
+<button ion-button [navPush]="Unknown">Miles</button>
+<button ion-button [navPush]="Unknown">Meters</button>
+</ion-item>
+</ion-list>
 
+<ion-list>
+
+    
+    <ion-item>
+      <ion-label stacked>Change Username</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+</ion-list>
+<ion-list>
+    
+    <ion-item>
+      <ion-label stacked>Change Email Address</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+</ion-list>
+<ion-list>
+    
+    <ion-item>
+      <ion-label stacked> Change Pasword</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+</ion-list>
+ <button ion-button [navPush]="Unknown">Log Out</button>
 </ion-content>

@@ -5,6 +5,7 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { ConnectPage } from '../connect/connect';
 import { SettingsPage } from '../settings/settings';
+import { MapPage } from '../map/map';
 
 
 
